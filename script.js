@@ -94,6 +94,7 @@ reset.addEventListener('click', () => {
     restartPara.innerText = "Start Play";
     restartPara.setAttribute('style', 'font-size: 35px');
     gameover = false;
+    turn = "X";
     const timeout = setTimeout(() => {
         console.log("Play Started");
         restartPara.innerText = "Turn for X";
